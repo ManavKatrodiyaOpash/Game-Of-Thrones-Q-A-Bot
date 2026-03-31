@@ -4,7 +4,7 @@ from rag import ask
 st.set_page_config(page_title="GOT Chatbot", page_icon="🐉")
 
 st.title("🐉 Game of Thrones AI Chatbot")
-st.caption("Ask anything from the book")
+st.caption("Ask anything from the book 'A Game of Thrones'!")
 
 # 🔹 Session memory
 if "chat" not in st.session_state:
