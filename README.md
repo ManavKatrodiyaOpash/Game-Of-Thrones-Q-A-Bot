@@ -5,8 +5,10 @@
 
 ## 📚 Setup Instructions
 
+> ⚠️ Use Python 3.11 It is more stable and faster than current versions.
+
 ### Step 1 — Add your books
-Place all 5 A Song Of Ice And Fire PDFs inside the `books/` folder:
+Make and Place all 5 A Song Of Ice And Fire PDFs inside the `books/` folder:
 ```
 books/
   A Game of Thrones.pdf
@@ -22,9 +24,14 @@ books/
 ### Step 2 — Add your API key
 Edit `.env` and paste your key (Any API key will work):
 ```
-API_KEY=your_key_here
+{Company_Name}_API_KEY=your_{Comapny_Name}API_key_here
 ```
-
+Example :-
+```
+GROQ_API_KEY=mk-123abc456def # I have Used This #
+GEMINI_API_KEY=mk-123abc456def
+OPENAI_API_KEY=mk-123abc456def
+```
 ---
 
 ### Step 3 — Install dependencies
@@ -48,8 +55,6 @@ You only need to do this **once**. If you add new books later, run it again.
 streamlit run app.py
 ```
 
----
-⚠️ Use Python 3.11 It is more stable and faster than current versions.
 ---
 
 ## 💡 What's improved in this version
