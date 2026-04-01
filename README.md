@@ -22,9 +22,8 @@ books/
 ### Step 2 — Add your Groq API key
 Edit `.env` and paste your key:
 ```
-GROQ_API_KEY=your_groq_api_key_here
+API_KEY=your_groq_api_key_here
 ```
-Get a free key at: https://console.groq.com
 
 ---
 
@@ -39,7 +38,7 @@ pip install -r requirement.txt
 ```bash
 python rag.py
 ```
-⚠️ This reads all PDFs and builds the FAISS index. It takes a few minutes.
+⚠️ This reads all PDFs and builds the FAISS index. It takes a few minutes depends upon the system you are using.
 You only need to do this **once**. If you add new books later, run it again.
 
 ---
@@ -55,7 +54,7 @@ streamlit run app.py
 
 | Feature | Old Version | New Version |
 |---|---|---|
-| Books | 1 (GOT only) | All 5 ASOIAF books |
+| Books | 1 (GOT only) | All 5 A Song Of Ice And Fire books |
 | Chunk size | 1200 | 1500 (more context) |
 | Chunk overlap | 250 | 400 (appendix-safe) |
 | Retrieval | similarity k=10 | MMR k=15 (no duplicates) |

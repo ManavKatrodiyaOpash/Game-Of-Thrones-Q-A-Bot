@@ -12,4 +12,4 @@ sentence-transformers
 transformers
 torch
 
-# Python 3.11 recommended
+# Python 3.11 recommended #
