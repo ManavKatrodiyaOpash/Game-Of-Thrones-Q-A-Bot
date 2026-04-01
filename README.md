@@ -6,7 +6,7 @@
 ## 📚 Setup Instructions
 
 ### Step 1 — Add your books
-Place all 5 ASOIAF PDFs inside the `books/` folder:
+Place all 5 A Song Of Ice And Fire PDFs inside the `books/` folder:
 ```
 books/
   A Game of Thrones.pdf
@@ -19,10 +19,10 @@ books/
 
 ---
 
-### Step 2 — Add your Groq API key
-Edit `.env` and paste your key:
+### Step 2 — Add your API key
+Edit `.env` and paste your key (Any API key will work):
 ```
-API_KEY=your_groq_api_key_here
+API_KEY=your_key_here
 ```
 
 ---
@@ -49,12 +49,14 @@ streamlit run app.py
 ```
 
 ---
+⚠️ Use Python 3.11 It is more stable and faster than current versions.
+---
 
 ## 💡 What's improved in this version
 
 | Feature | Old Version | New Version |
 |---|---|---|
-| Books | 1 (GOT only) | All 5 A Song Of Ice And Fire books |
+| Books | 1 (GOT only) | All 5 A Song Of Ice And Fire Books |
 | Chunk size | 1200 | 1500 (more context) |
 | Chunk overlap | 250 | 400 (appendix-safe) |
 | Retrieval | similarity k=10 | MMR k=15 (no duplicates) |
