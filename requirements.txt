@@ -7,7 +7,7 @@ langchain-openai
 langchain-gemini
 langchain-huggingface
 faiss-cpu
-faiss-gpu
+faiss-gpu-cu12
 pypdf
 python-dotenv
 streamlit
