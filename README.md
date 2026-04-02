@@ -28,7 +28,6 @@ Edit `.env` and paste your key (Any API key will work):
 ```
 Example :-
 ```
-GROQ_API_KEY=mk-123abc456def # I have Used This #
 GEMINI_API_KEY=mk-123abc456def
 OPENAI_API_KEY=mk-123abc456def
 ```
