@@ -58,14 +58,16 @@ streamlit run app.py
 
 ## 💡 What's improved in this version
 
-| Feature | Old Version | New Version |
-|---|---|---|
-| Books | 1 (GOT only) | All 5 A Song Of Ice And Fire Books |
-| Chunk size | 1200 | 1500 (more context) |
-| Chunk overlap | 250 | 400 (appendix-safe) |
-| Retrieval | similarity k=10 | MMR k=15 (no duplicates) |
-| Reranker top_k | 5 | 6 |
-| Embedding model | all-MiniLM-L6-v2 (load) vs bge-large (index) | bge-large-en for BOTH |
-| Prompt | Basic | Appendix-aware, book-labeled |
-| Source display | None | Shows which book answered |
-| Clear chat | None | ✅ Button added |
+| Feature | Old Version | New Version | Upcoming Version |
+|---|---|---| --- |
+| Books | 1 (GOT only) | All 5 A Song Of Ice And Fire Books | All 5 Books + Spinoff Books |
+| Chunk size | 1200 | 1500 (more context) | 2000 (max for bge-large) |
+| Chunk overlap | 250 | 400 (appendix-safe) | 500 (max for bge-large) |
+| Retrieval | similarity k=10 | MMR k=15 (no duplicates) | Same as new version but with better relevance scoring |
+| Reranker top_k | 5 | 6 | Same as Before |
+| Embedding model | all-MiniLM-L6-v2 (load) vs bge-large (index) | bge-large-en for BOTH | Same as Before |
+| Prompt | Basic | Appendix-aware, book-labeled | Same as Before |
+| Source display | None | Shows which book answered | Same as Before |
+| Clear chat | None | ✅ Button added | Same as Before |
+| UI | Basic Streamlit | Improved Streamlit with better formatting | Same as Before |
+| Chat History, Edit, Delete, New Chats, Save Chats | None | None | ✅ All added in upcoming version |
